@@ -1,6 +1,7 @@
 
-import { Check, ArrowRight, WhatsApp } from "lucide-react";
+import { Check, ArrowRight, MessageSquare } from "lucide-react";
 import { Button } from "@/components/ui/button";
+
 const Pricing = () => {
   const plans = [{
     name: "Express",
@@ -21,6 +22,7 @@ const Pricing = () => {
     features: ["Multi-página completa", "Diseño avanzado personalizado", "Tienda online básica", "Copywriting con IA", "Integraciones avanzadas", "Dominio y hosting premium", "Soporte técnico 30 días"],
     popular: false
   }];
+  
   return <section id="pricing" className="section-padding bg-black/30 relative">
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
@@ -37,7 +39,7 @@ const Pricing = () => {
             className="btn-primary"
           >
             ¡Quiero mi propuesta ahora!
-            <WhatsApp size={16} />
+            <MessageSquare size={16} />
           </Button>
         </div>
 
@@ -49,4 +51,5 @@ const Pricing = () => {
       </div>
     </section>;
 };
+
 export default Pricing;
