@@ -6,6 +6,7 @@ import Services from "@/components/Services";
 import Process from "@/components/Process";
 import Pricing from "@/components/Pricing";
 import Portfolio from "@/components/Portfolio";
+import Values from "@/components/Values";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -20,6 +21,7 @@ const Index = () => {
       <Process />
       <Pricing />
       <Portfolio />
+      <Values />
       <Contact />
       <Footer />
       <WhatsAppButton />

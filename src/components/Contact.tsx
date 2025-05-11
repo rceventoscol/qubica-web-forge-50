@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -48,8 +49,6 @@ const Contact = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          
-
           <div className="flex flex-col space-y-8">
             <div className="gradient-card p-8">
               <h3 className="text-xl font-semibold mb-4">Contacto directo</h3>
@@ -66,8 +65,6 @@ const Contact = () => {
                 </Button>
               </div>
             </div>
-
-            
           </div>
         </div>
       </div>
