@@ -60,17 +60,19 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between h-20">
-          {/* Logo - Moved out of the navigation div */}
-          <a href="#home" className="flex items-center">
-            <img 
-              src="/lovable-uploads/3c86f56d-6f00-48a3-9641-e2d1729d14a6.png" 
-              alt="Qubica Studio Logo" 
-              className="h-10 object-contain" 
-            />
-          </a>
+          {/* Logo positioned at the left edge */}
+          <div className="flex-shrink-0 mr-10">
+            <a href="#home" className="flex items-center">
+              <img 
+                src="/lovable-uploads/3c86f56d-6f00-48a3-9641-e2d1729d14a6.png" 
+                alt="Qubica Studio Logo" 
+                className="h-10 object-contain" 
+              />
+            </a>
+          </div>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          {/* Desktop Navigation - pushed to the right */}
+          <nav className="hidden md:flex items-center space-x-8 flex-grow justify-end">
             {navLinks.map((link) => (
               <a
                 key={link.name}
