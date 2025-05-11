@@ -38,7 +38,7 @@ const Contact = () => {
       message: ""
     });
   };
-  return <section id="contact" className="section-padding relative bg-black/[0.31]">
+  return <section id="contact" className="section-padding relative bg-black">
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
           

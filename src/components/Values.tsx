@@ -12,10 +12,7 @@ const Values = () => {
             ofreciendo soluciones personalizadas que generan resultados reales.
           </p>
           
-          <Button variant="default" onClick={() => window.open("https://wa.me/message/GAKSCPX7RSX3K1", "_blank")} className="btn-primary">
-            Contáctanos para tu proyecto
-            <ArrowRight className="ml-2 h-4 w-4" />
-          </Button>
+          
         </div>
       </div>
     </section>;
