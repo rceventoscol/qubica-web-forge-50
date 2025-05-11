@@ -44,7 +44,7 @@ const Navbar = () => {
           {/* Logo positioned at the left edge */}
           <div className="flex-shrink-0 mr-10">
             <a href="#home" className="flex items-center">
-              <img src="/lovable-uploads/3c86f56d-6f00-48a3-9641-e2d1729d14a6.png" alt="Qubica Studio Logo" className="h-20 object-contain" />
+              <img alt="Qubica Studio Logo" className="h-20 object-contain" src="/lovable-uploads/1050f38e-2514-4050-b33e-db0cd0b9a486.png" />
             </a>
           </div>
 
