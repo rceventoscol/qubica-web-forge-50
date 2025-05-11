@@ -53,7 +53,7 @@ const Pricing = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button variant="outline" className="btn-secondary" onClick={() => window.open("https://wa.me/message/GAKSCPX7RSX3K1", "_blank")}>
+          <Button variant="outline" onClick={() => window.open("https://wa.me/message/GAKSCPX7RSX3K1", "_blank")} className="btn-secondary bg-blue-700 hover:bg-blue-600">
             ¿Necesitas algo diferente? Pide una propuesta personalizada
           </Button>
         </div>
