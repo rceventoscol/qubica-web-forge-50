@@ -67,15 +67,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="gradient-card p-8">
-              <h3 className="text-xl font-semibold mb-4">Agenda una llamada</h3>
-              <p className="text-gray-300 mb-4">
-                Prefiere hablar directamente? Agenda una videollamada gratuita de 15 minutos para discutir tu proyecto.
-              </p>
-              <Button variant="outline" onClick={() => window.open("https://calendly.com/", "_blank")} className="btn-secondary w-full bg-zinc-700 hover:bg-zinc-600">
-                Agendar videollamada
-              </Button>
-            </div>
+            
           </div>
         </div>
       </div>
