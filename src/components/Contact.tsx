@@ -38,11 +38,11 @@ const Contact = () => {
       message: ""
     });
   };
-  return <section id="contact" className="section-padding relative bg-black">
+  return <section id="contact" className="section-padding relative bg-black py-0">
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
           
-          <p className="text-lg text-gray-300">
+          <p className="text-lg text-gray-300 my-0">
             ¿Listo para dar el siguiente paso? Contáctanos y responderemos a todas tus dudas.
           </p>
         </div>
