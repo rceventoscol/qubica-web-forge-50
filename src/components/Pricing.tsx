@@ -29,28 +29,7 @@ const Pricing = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {plans.map((plan, index) => <div key={index} className={`gradient-card p-8 relative ${plan.popular ? "border-qubica-blue/50" : "border-white/10"}`}>
-              {plan.popular && <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-qubica-blue text-white text-sm font-medium py-1 px-4 rounded-full my-[27px]">
-                  Popular
-                </div>}
-              <h3 className="text-2xl font-bold mb-2">{plan.name}</h3>
-              <div className="mb-6">
-                <span className="text-4xl font-bold">{plan.price}</span>
-              </div>
-              <p className="text-gray-300 mb-6">{plan.description}</p>
-              <div className="space-y-3 mb-8">
-                {plan.features.map((feature, idx) => <div key={idx} className="flex items-center">
-                    <Check size={18} className="text-qubica-blue mr-2 flex-shrink-0" />
-                    <span className="text-gray-300">{feature}</span>
-                  </div>)}
-              </div>
-              <Button className={`w-full ${plan.popular ? "btn-primary" : "btn-secondary"}`} onClick={() => window.open("https://wa.me/message/GAKSCPX7RSX3K1", "_blank")}>
-                Solicitar cotización
-                <ArrowRight size={16} className="ml-2" />
-              </Button>
-            </div>)}
-        </div>
+        
 
         <div className="text-center mt-12">
           <Button variant="outline" onClick={() => window.open("https://wa.me/message/GAKSCPX7RSX3K1", "_blank")} className="btn-secondary bg-blue-700 hover:bg-blue-600">
