@@ -1,7 +1,5 @@
-
 import { Check, ArrowRight, MessageSquare } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
 const Pricing = () => {
   const plans = [{
     name: "Express",
@@ -22,7 +20,6 @@ const Pricing = () => {
     features: ["Multi-página completa", "Diseño avanzado personalizado", "Tienda online básica", "Copywriting con IA", "Integraciones avanzadas", "Dominio y hosting premium", "Soporte técnico 30 días"],
     popular: false
   }];
-  
   return <section id="pricing" className="section-padding bg-black/30 relative">
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
@@ -33,14 +30,7 @@ const Pricing = () => {
             Dinos qué necesitas, y deja que la magia suceda.
           </p>
           
-          <Button 
-            variant="default" 
-            onClick={() => window.open("https://wa.me/message/GAKSCPX7RSX3K1", "_blank")} 
-            className="btn-primary"
-          >
-            ¡Quiero mi propuesta ahora!
-            <MessageSquare size={16} />
-          </Button>
+          
         </div>
 
         <div className="text-center mt-12">
@@ -51,5 +41,4 @@ const Pricing = () => {
       </div>
     </section>;
 };
-
 export default Pricing;
