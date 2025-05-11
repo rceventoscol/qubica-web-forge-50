@@ -49,7 +49,7 @@ const Navbar = () => {
               <img
                 alt="Qubica Cube Logo"
                 className="h-10 w-10 object-contain"
-                src="/lovable-uploads/3c86f56d-6f00-48a3-9641-e2d1729d14a6.png"
+                src="/lovable-uploads/e3a27f8c-34ac-40f8-84db-55a67d4b9066.png"
               />
               {/* Studio text */}
               <span className="ml-2 text-xl font-semibold hero-gradient">
