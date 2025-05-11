@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -39,10 +38,10 @@ const Contact = () => {
       message: ""
     });
   };
-  return <section id="contact" className="section-padding bg-black/30 relative">
+  return <section id="contact" className="section-padding relative bg-black/[0.31]">
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="section-title">Hablemos sobre <span className="hero-gradient">tu proyecto</span></h2>
+          
           <p className="text-lg text-gray-300">
             ¿Listo para dar el siguiente paso? Contáctanos y responderemos a todas tus dudas.
           </p>
