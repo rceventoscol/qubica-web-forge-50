@@ -1,3 +1,4 @@
+
 import { MessageCircle, Palette, Settings, Globe } from "lucide-react";
 const Process = () => {
   const steps = [{
@@ -6,7 +7,7 @@ const Process = () => {
     description: "Compartimos una breve reunión donde conocemos tu negocio y objetivos."
   }, {
     icon: <Palette size={32} className="text-qubica-blue" />,
-    title: "En 48h te mostramos un diseño inicial",
+    title: "En 24h te mostramos un diseño inicial",
     description: "Trabajamos rápido para presentarte un boceto de tu nuevo sitio web."
   }, {
     icon: <Settings size={32} className="text-qubica-blue" />,

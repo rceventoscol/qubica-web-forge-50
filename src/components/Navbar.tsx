@@ -43,8 +43,12 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
-            <a href="#home" className="text-xl md:text-2xl font-poppins font-bold hero-gradient">
-              Qubica Studio
+            <a href="#home" className="flex items-center">
+              <img 
+                src="/lovable-uploads/5d8817dc-e25f-4d8e-9cb4-ccb74c2f6c90.png" 
+                alt="Qubica Studio Logo" 
+                className="h-10 mr-3"
+              />
             </a>
           </div>
 
