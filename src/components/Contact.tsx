@@ -1,9 +1,7 @@
-
 import { useState } from "react";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
-
 const Contact = () => {
   const {
     toast
@@ -13,7 +11,6 @@ const Contact = () => {
     email: "",
     message: ""
   });
-  
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const {
       name,
@@ -24,7 +21,6 @@ const Contact = () => {
       [name]: value
     }));
   };
-  
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
@@ -42,8 +38,7 @@ const Contact = () => {
       message: ""
     });
   };
-  
-  return <section id="contact" className="section-padding relative bg-black py-0">
+  return <section id="contact" className="section-padding bg-black/30 relative">
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <p className="text-lg text-gray-300 my-0">
@@ -71,5 +66,4 @@ const Contact = () => {
       </div>
     </section>;
 };
-
 export default Contact;

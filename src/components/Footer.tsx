@@ -6,7 +6,7 @@ const Footer = () => {
       behavior: "smooth"
     });
   };
-  return <footer className="section-padding relative bg-black">
+  return <footer className="section-padding bg-black/30 relative">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="mb-6 md:mb-0">

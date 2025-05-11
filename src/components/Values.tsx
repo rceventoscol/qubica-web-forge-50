@@ -2,7 +2,7 @@ import React from "react";
 import { ArrowRight, MessageSquare } from "lucide-react";
 import { Button } from "@/components/ui/button";
 const Values = () => {
-  return <section id="values" className="blacksection-padding relative bg-black">
+  return <section id="values" className="section-padding relative bg-neutral-900">
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="section-title">Casos de <span className="hero-gradient">éxito</span></h2>

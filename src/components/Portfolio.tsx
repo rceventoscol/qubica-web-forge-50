@@ -36,7 +36,7 @@ const Portfolio = () => {
   const handleItemClick = (url: string) => {
     window.open(url, '_blank', 'noopener,noreferrer');
   };
-  return <section id="portfolio" className="section-padding relative bg-black">
+  return <section id="portfolio" className="section-padding relative bg-neutral-900">
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="section-title">Nuestro <span className="hero-gradient">Portafolio</span></h2>
