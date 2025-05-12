@@ -26,9 +26,7 @@ const Hero = () => {
         <div className="text-center max-w-4xl mx-auto">
           <span className="inline-block px-4 py-1.5 mb-6 text-sm bg-white/10 backdrop-blur-sm rounded-full animate-fade-in-up opacity-0" style={{
           animationDelay: '0.3s'
-        }}>
-            Desarrollo Web con IA
-          </span>
+        }}>Diseños que venden. Sitios que convierten.</span>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight animate-fade-in-up opacity-0" style={{
           animationDelay: '0.5s'
