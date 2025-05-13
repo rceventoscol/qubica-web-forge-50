@@ -19,7 +19,7 @@ const WhatsAppButton = () => {
   }, []);
   
   const openWhatsApp = () => {
-    window.open('https://wa.me/message/GAKSCPX7RSX3K1', '_blank');
+    window.open('https://wa.me/573122695899', '_blank');
   };
   
   return (

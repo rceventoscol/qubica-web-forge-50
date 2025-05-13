@@ -1,3 +1,4 @@
+
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 const Hero = () => {
@@ -43,7 +44,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up opacity-0" style={{
           animationDelay: '0.9s'
         }}>
-            <Button className="btn-primary w-full sm:w-auto" onClick={() => window.open("https://wa.me/message/GAKSCPX7RSX3K1", "_blank")}>
+            <Button className="btn-primary w-full sm:w-auto" onClick={() => window.open("https://wa.me/573122695899", "_blank")}>
               Solicita tu cotización ahora
               <ArrowRight size={16} className="ml-2" />
             </Button>
