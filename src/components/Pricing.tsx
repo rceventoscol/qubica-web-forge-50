@@ -131,7 +131,7 @@ const Pricing = () => {
                 </div>
                 <Button 
                   className={`w-full mt-8 ${plan.popular ? 'btn-primary' : 'btn-secondary'}`} 
-                  onClick={() => window.open("https://wa.me/message/GAKSCPX7RSX3K1", "_blank")}
+                  onClick={() => window.open("https://wa.me/573122695899", "_blank")}
                 >
                   Solicitar ahora
                 </Button>
@@ -146,7 +146,7 @@ const Pricing = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button variant="outline" onClick={() => window.open("https://wa.me/message/GAKSCPX7RSX3K1", "_blank")} className="btn-secondary bg-blue-700 hover:bg-blue-600">
+          <Button variant="outline" onClick={() => window.open("https://wa.me/573122695899", "_blank")} className="btn-secondary bg-blue-700 hover:bg-blue-600">
             ¿Necesitas algo diferente? Pide una propuesta personalizada
           </Button>
         </div>

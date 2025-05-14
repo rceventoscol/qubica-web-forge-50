@@ -72,7 +72,7 @@ const Navbar = () => {
             <Button
               className="btn-primary"
               onClick={() =>
-                window.open("https://wa.me/message/GAKSCPX7RSX3K1", "_blank")
+                window.open("https://wa.me/573122695899", "_blank")
               }
             >
               Contáctanos
@@ -105,7 +105,7 @@ const Navbar = () => {
               <Button
                 className="btn-primary mt-4"
                 onClick={() =>
-                  window.open("https://wa.me/message/GAKSCPX7RSX3K1", "_blank")
+                  window.open("https://wa.me/573122695899", "_blank")
                 }
               >
                 Contáctanos
